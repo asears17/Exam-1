@@ -11,6 +11,7 @@
 
 
 
+
 void Theater::AddMovie(Movie &Movie){
         
 }
@@ -23,6 +24,13 @@ bool Theater::GetPopcornPrice(double price){
     return 4.00;
 }
 
+bool Theater::GetMovieForHour(int hour){
+    return "";
+}
+
+bool Theater::GetShowTimeForGenre(int showTime){
+    return -1;
+}
 
 
 

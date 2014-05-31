@@ -27,11 +27,10 @@ public:
     
     bool GetPopcornPrice(double price);//cannot change price of popcorn price
     bool GetCokePrice(double price);//cannot change price of coke
+    bool GetMovieForHour(int hour);
+    bool GetShowTimeForGenre(int showTime);
     
-    Theater garland(string name, string phone){
-        name= "The Garland";
-        phone= "509-327-2509";
-    }
+    Theater garland(string name, string phone);
 
 
         

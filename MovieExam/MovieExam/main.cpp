@@ -48,5 +48,5 @@ if (garland.GetMovieForHour(-1) != "") {
     ￼if (errors == 0) cout << "Passed\n";
     ￼else cout << "Errors";
     
-    }
+}
 

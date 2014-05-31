@@ -23,18 +23,23 @@ public:
     int hour;//hour of movie
     
     void AddMovie(Movie& Movie);//function to add a movie
-    bool garland(string name, string phone);//theater name
     
-    Theater(string name, string phone);//initializes Theater in main.cpp
-
-private:
+    
     bool GetPopcornPrice(double price);//cannot change price of popcorn price
     bool GetCokePrice(double price);//cannot change price of coke
     
+    Theater garland(string name, string phone){
+        name= "The Garland";
+        phone= "509-327-2509";
+    }
+
+
+        
    
     
     
 };
+
 
 
 

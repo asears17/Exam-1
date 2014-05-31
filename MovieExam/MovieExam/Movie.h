@@ -16,7 +16,6 @@ class Movie{
 public:
 
     
-    const int MOVIECOUNT;//amount of movies at the theater
     
     string movieTitle;//defines movieTitle
     string title;

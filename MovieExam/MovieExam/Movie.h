@@ -4,7 +4,8 @@
 //
 //  Created by Drew Sears on 5/30/14.
 //  Copyright (c) 2014 Drew Sears. All rights reserved.
-//
+//// I swear this program is my work and my work alone.
+
 
 #ifndef MovieExam_Movie_h
 #define MovieExam_Movie_h
@@ -14,6 +15,7 @@ using namespace std;
 class Movie{
 public:
 
+    
     const int MOVIECOUNT;//amount of movies at the theater
     
     string movieTitle;//defines movieTitle

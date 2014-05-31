@@ -13,7 +13,7 @@
 using namespace std;
 int main() {
     ￼const int MOVIECOUNT = 11;
-    Movie movieListing[] = {
+    Movie movieListing[11] = {
         Movie("Bull Durham", "Comedy", 0), Movie("Ocean's Eleven", "Action", 2),
         Movie("Monte Python's Meaning of Life", "Comedy", 5), Movie("Jaws", "Horror", 7),
         Movie("Fletch", "Comedy", 10), Movie("Usual Suspects", "Action", 12),
@@ -21,9 +21,10 @@ int main() {
         Movie("Monte Python's Meaning of Life", "Comedy", 19), Movie("Jaws", "Horror", 21),
         Movie("Usual Suspects", "Action", 23),
     };
-    ￼}
+}
 
-Theater garland("The Garland", "509-327-2509");{
+Theater garland("The Garland", "509-327-2509");
+{
 
 for (int m = 0; m < MOVIECOUNT; m++) {
     ￼garland.AddMovie(movieListing[m]);
@@ -48,4 +49,5 @@ if (garland.GetMovieForHour(-1) != "") {
     ￼if (errors == 0) cout << "Passed\n";
     ￼else cout << "Errors";
     
-}
+};
+

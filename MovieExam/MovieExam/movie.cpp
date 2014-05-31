@@ -13,7 +13,7 @@ bool Movie::GetTitle(string title){
     return true;
 }
 
-bool Movie::GetGenre(string Genre){
+bool Movie::GetGenre(string genre){
     return true;
 }
 
@@ -24,7 +24,7 @@ bool Movie::GetShowtime(int showTime){
     
 }
 
-bool Movie::GetPrice(int price){
+bool Movie::GetPrice(double price){
     return 10.00;
 }
 

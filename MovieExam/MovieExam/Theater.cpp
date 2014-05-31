@@ -8,8 +8,8 @@
 
 #include "Theater.h"
 
-bool Theater::TheaterName(string name){
-    return &garland;
+bool Theater::garland(string name, string phone){
+    return "The Garland","509-327-2509";
     
 }
 

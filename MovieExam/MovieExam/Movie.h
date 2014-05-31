@@ -8,12 +8,13 @@
 
 #ifndef MovieExam_Movie_h
 #define MovieExam_Movie_h
+#include <iostream>
 #include <string>
 using namespace std;
 class Movie{
 public:
 
-    const int MOVIECOUNT=11;//amount of movies at the theater
+    const int MOVIECOUNT;//amount of movies at the theater
     
     string movieTitle;//defines movieTitle
     string title;
@@ -21,7 +22,7 @@ public:
     int showTime;//defines show time
     
     bool GetTitle(string title);//gets title of movie
-    bool GetGenre(string Genre);//gets genre of movie
+    bool GetGenre(string genre);//gets genre of movie
     bool GetShowtime(int showTime);//gets showtime
     
     Movie(string name, string genre, int showtime);//initializes in main.cpp all the movies
@@ -30,7 +31,7 @@ private:
     
     int price;//price wont change
     
-    bool GetPrice(int price);//get the private price of the movie
+    bool GetPrice(double price);//get the private price of the movie
 };
 
 

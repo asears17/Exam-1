@@ -10,11 +10,11 @@
 
 
 bool Movie::GetTitle(string title){
-    return title;
+    return true;
 }
 
 bool Movie::GetGenre(string Genre){
-    return "Comedy";
+    return true;
 }
 
 

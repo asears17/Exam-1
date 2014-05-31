@@ -6,9 +6,22 @@
 //  Copyright (c) 2014 Drew Sears. All rights reserved.
 //
 
-#include <iostream>
 #include "Theater.h"
-using namespace std;
-int main (){
+
+bool Theater::TheaterName(string name){
+    return &garland;
     
 }
+
+void Theater::AddMovie(Movie &Movie){
+        
+}
+
+bool Theater::GetCokePrice(double price){
+    return 3.00;
+}
+
+bool Theater::GetPopcornPrice(double price){
+    return 4.00;
+}
+

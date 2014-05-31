@@ -13,19 +13,24 @@ using namespace std;
 class Movie{
 public:
 
-    string title;
-    string genre;
-    int showTime;
+    const int MOVIECOUNT=11;//amount of movies at the theater
     
-    bool GetTitle(string title);
-    bool GetGenre(string Genre);
-    bool GetShowtime(int showTime);
+    string movieTitle;//defines movieTitle
+    string title;
+    string genre;//defines genre
+    int showTime;//defines show time
+    
+    bool GetTitle(string title);//gets title of movie
+    bool GetGenre(string Genre);//gets genre of movie
+    bool GetShowtime(int showTime);//gets showtime
+    
+    Movie(string name, string genre, int showtime);//initializes in main.cpp all the movies
     
 private:
     
-    int price;
+    int price;//price wont change
     
-    bool GetPrice(int price);
+    bool GetPrice(int price);//get the private price of the movie
 };
 
 

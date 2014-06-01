@@ -39,7 +39,7 @@ if (garland.GetMovieForHour(18) != "Monte Python's Meaning of Life") {
         errors++;
         cout << "error: incorrect movie for 18th hour\n";
     }
-if (garland.GetShowTimeForGenre("Comedy")!= 0) {
+if (garland.GetShowTimeForGenre("Comedy") != 0) {
         errors++;
         cout << "error: incorrect Comedy\n";
     }

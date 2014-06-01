@@ -30,8 +30,7 @@ public:
     bool GetMovieForHour(int hour);
     bool GetShowTimeForGenre(int showTime);
     
-    Theater garland(string name, string phone);
-
+    Theater(string name, string phone);//constructor for Theater
 
         
    

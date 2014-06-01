@@ -12,7 +12,7 @@
 #include "Theater.h"
 using namespace std;
 int main() {
-    ￼const int MOVIECOUNT = 11;
+    ￼int MOVIECOUNT = 11;
     Movie movieListing[] = {
         Movie("Bull Durham", "Comedy", 0), Movie("Ocean's Eleven", "Action", 2),
         Movie("Monte Python's Meaning of Life", "Comedy", 5), Movie("Jaws", "Horror", 7),
@@ -25,7 +25,7 @@ int main() {
 
 Theater garland("The Garland", "509-327-2509");
 
-for (int m = 0; m < MOVIECOUNT; m++) {
+    for (int m = 0; m < MOVIECOUNT; m++) {
     ￼garland.AddMovie(movieListing[m]);
     ￼}
 int errors = 0;

@@ -32,5 +32,7 @@ bool Theater::GetShowTimeForGenre(int showTime){
     return -1;
 }
 
-
+Theater::Theater(string name, string phone){
+    
+}
 

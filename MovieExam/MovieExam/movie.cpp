@@ -29,4 +29,7 @@ bool Movie::GetPrice(double price){
     return 10.00;
 }
 
+Movie::Movie(string name, string genre,int showTime){
+    
+}
 

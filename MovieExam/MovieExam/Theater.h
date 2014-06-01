@@ -27,8 +27,8 @@ public:
     
     double GetPopcornPrice(double price);//cannot change price of popcorn price
     double GetCokePrice(double price);//cannot change price of coke
-    string GetMovieForHour(int hour);
-    string GetShowTimeForGenre(string showTime);
+    string GetMovieForHour(int hour);//returns movie hour
+    int GetShowTimeForGenre(int showTime);//returns time for comedy
     
     Theater(string name, string phone);//constructor for Theater
 

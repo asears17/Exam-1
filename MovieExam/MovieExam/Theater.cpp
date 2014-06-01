@@ -16,20 +16,20 @@ void Theater::AddMovie(Movie &Movie){
         
 }
 
-bool Theater::GetCokePrice(double price){
+double Theater::GetCokePrice(double price){
     return 3.00;
 }
 
-bool Theater::GetPopcornPrice(double price){
+double Theater::GetPopcornPrice(double price){
     return 4.00;
 }
 
-bool Theater::GetMovieForHour(int hour){
+string Theater::GetMovieForHour(int hour){
     return "";
 }
 
-bool Theater::GetShowTimeForGenre(int showTime){
-    return -1;
+string Theater::GetShowTimeForGenre(string showTime){
+    return "Comedy";
 }
 
 Theater::Theater(string name, string phone){

@@ -25,10 +25,10 @@ public:
     void AddMovie(Movie& Movie);//function to add a movie
     
     
-    bool GetPopcornPrice(double price);//cannot change price of popcorn price
-    bool GetCokePrice(double price);//cannot change price of coke
-    bool GetMovieForHour(int hour);
-    bool GetShowTimeForGenre(int showTime);
+    double GetPopcornPrice(double price);//cannot change price of popcorn price
+    double GetCokePrice(double price);//cannot change price of coke
+    string GetMovieForHour(int hour);
+    string GetShowTimeForGenre(string showTime);
     
     Theater(string name, string phone);//constructor for Theater
 

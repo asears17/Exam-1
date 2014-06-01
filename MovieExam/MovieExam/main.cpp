@@ -24,14 +24,14 @@ int main() {
 
 Theater garland("The Garland", "509-327-2509");
     for (int m = 0; m < MOVIECOUNT; m++) {
-￼garland.AddMovie(movieListing[m]);
+garland.AddMovie(movieListing[m]);
     }
     int errors = 0;
-if (garland.GetMovieForHour(-1) != "") {
+    if (garland.GetMovieForHour(-1) != "") {
     errors++;
     cout << "error: not handling -1 correctly\n";
     }
-if (garland.GetMovieForHour(25) != "") {
+    if (garland.GetMovieForHour(25) != "") {
         errors++;
         cout << "error: not handling 25 correctly\n";
     }

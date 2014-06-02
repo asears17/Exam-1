@@ -17,6 +17,7 @@ class Theater{
 public:
     
     
+    Movie movieCount[11];
     
     string name;//string of theater name
     string phone;//theater phone number

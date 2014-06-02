@@ -34,6 +34,6 @@ int Theater::GetShowTimeForGenre(int showTime){
 }
 
 Theater::Theater(string name, string phone){
-    
+
 }
 

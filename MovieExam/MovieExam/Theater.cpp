@@ -13,6 +13,8 @@
 
 
 void Theater::AddMovie(Movie &Movie){
+    movies[movieCount]= Movie;
+    movieCount++;
         
 }
 
@@ -34,6 +36,6 @@ int Theater::GetShowTimeForGenre(int showTime){
 }
 
 Theater::Theater(string name, string phone){
-
+    movieCount=0;
 }
 

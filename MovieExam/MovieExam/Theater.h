@@ -17,7 +17,8 @@ class Theater{
 public:
     
     
-    Movie movieCount[11];
+    Movie movies[11];
+    int movieCount;
     
     string name;//string of theater name
     string phone;//theater phone number
@@ -33,7 +34,8 @@ public:
     
     Theater(string name, string phone);//constructor for Theater
 
-        
+
+    
    
     
     

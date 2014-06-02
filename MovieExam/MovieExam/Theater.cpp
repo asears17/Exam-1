@@ -30,9 +30,8 @@ string Theater::GetMovieForHour(int hour){
     return "";
 }
 
-int Theater::GetShowTimeForGenre(int showTime){
-    
-    return -1;
+string Theater::GetShowTimeForGenre(string showTime){
+    return "Comedy";
 }
 
 Theater::Theater(string name, string phone){

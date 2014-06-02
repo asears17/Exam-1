@@ -12,7 +12,7 @@
 #include "Theater.h"
 using namespace std;
 int main() {
-    int MOVIECOUNT = 11;
+    const int MOVIECOUNT = 11;
     Movie movieListing[] = {
         Movie("Bull Durham", "Comedy", 0), Movie("Ocean's Eleven", "Action", 2),
         Movie("Monte Python's Meaning of Life", "Comedy", 5), Movie("Jaws", "Horror", 7),

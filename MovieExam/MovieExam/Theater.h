@@ -19,7 +19,7 @@ public:
     
     Movie movies[11];
     int movieCount;
-    
+
     string name;//string of theater name
     string phone;//theater phone number
     int hour;//hour of movie
@@ -30,12 +30,10 @@ public:
     double GetPopcornPrice(double price);//cannot change price of popcorn price
     double GetCokePrice(double price);//cannot change price of coke
     string GetMovieForHour(int hour);//returns movie hour
-    int GetShowTimeForGenre(int showTime);//returns time for comedy
+    string GetShowTimeForGenre(string showTime);//returns time for comedy
     
     Theater(string name, string phone);//constructor for Theater
 
-
-    
    
     
     

@@ -33,3 +33,8 @@ Movie::Movie(string name, string genre,int showTime){
     
 }
 
+Movie::Movie(){
+    
+}
+
+

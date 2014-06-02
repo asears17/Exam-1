@@ -27,7 +27,9 @@ public:
     bool GetShowtime(int showTime);//gets showtime
     
     Movie(string name, string genre, int showtime);//initializes in main.cpp all the movies
-    
+
+    Movie();
+
 private:
     
     int price;//price wont change

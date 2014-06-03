@@ -30,11 +30,18 @@ string Theater::GetMovieForHour(int hour){
     return "";
 }
 
-string Theater::GetShowTimeForGenre(string showTime){
-    return "Comedy";
-}
+int Theater::GetShowTimeForGenre(string genre){
+    int retShowtime= -1;
+    for (int i=0; i<movieCount; i++) {
+        if (movies[i].GetGenre(genre))
+            retShowtime=i;
+        }
+        
+        return retShowtime;
+    }
 
-Theater::Theater(string name, string phone){
+
+    Theater::Theater(string name, string phone){
     movieCount=0;
 }
 
